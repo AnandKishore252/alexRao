@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Helpdesk Test Suite">
+
+	<listeners>
+		<listener
+			class-name="happyfox.helpdesk_automation.listener.TestListener" />
+	</listeners>
+
+	<test name="Happyfox Helpdesk Automation">
+		<classes>
+			<class name="happyfox.helpdesk_automation.suites.Testing">
+			</class>
+		</classes>
+	</test>
+</suite>
